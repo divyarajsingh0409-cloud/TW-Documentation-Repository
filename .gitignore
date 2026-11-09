@@ -1,0 +1,18 @@
+# LaTeX generated files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Doxygen generated output
+html/
+latex/
+
+# Editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
