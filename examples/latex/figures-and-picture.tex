@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\begin{document}
+\section*{Colour}
+\definecolor{customblue}{HTML}{3437B4}
+\textcolor{customblue}{Lecture-inspired indigo text.}
+\colorbox{yellow!25}{Highlighted note.}
+\section*{Picture environment}
+\setlength{\unitlength}{1cm}
+\begin{picture}(5,3)
+  \put(0,0){\line(1,0){4}}
+  \put(0,0){\line(0,1){2}}
+  \put(2,1){\circle{0.4}}
+  \put(2.3,1.2){Point}
+  \put(0.5,2){\vector(1,0){2}}
+\end{picture}
+\section*{External image template}
+% Put your image in this folder and uncomment the next lines:
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=0.6\textwidth]{your-image.png}
+% \caption{Your image caption}
+% \label{fig:your-image}
+% \end{figure}
+% Then refer to it with Figure~\ref{fig:your-image}.
+\end{document}

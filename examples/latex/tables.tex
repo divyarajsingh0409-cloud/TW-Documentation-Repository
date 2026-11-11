@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\begin{document}
+\begin{table}[htbp]
+\centering
+\caption{Example student data}
+\label{tab:students}
+\begin{tabular}{|c|l|c|}
+\hline
+\rowcolor{blue!15}
+Roll & Name & Score \\
+\hline
+1 & Asha & 91 \\
+\hline
+\multirow{2}{*}{2} & Ravi & 84 \\
+                   & Neha & 89 \\
+\hline
+\multicolumn{2}{|c|}{Class average} & 88 \\
+\hline
+\end{tabular}
+\end{table}
+Refer to Table~\ref{tab:students} for the sample data.
+\end{document}

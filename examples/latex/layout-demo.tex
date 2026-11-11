@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{TW Practice}
+\rhead{Document Layout}
+\cfoot{\thepage}
+\title{Document Layout Demonstration}
+\author{Student Name}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+A short example of document setup, page style, title and section hierarchy.
+\end{abstract}
+\chapter{Document Structure}
+\section{First section}
+A blank line begins a new paragraph.
+
+This is a second paragraph.
+\subsection{A numbered list}
+\begin{enumerate}[itemsep=2pt]
+  \item Define the document class.
+  \item Load required packages.
+  \item Write the document body.
+\end{enumerate}
+\section*{Unnumbered note}
+This heading is not numbered.
+\end{document}
